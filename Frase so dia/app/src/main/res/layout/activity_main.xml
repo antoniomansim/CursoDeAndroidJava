@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1590a"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botao_nova_frase_id"
+        android:layout_width="309dp"
+        android:layout_height="72dp"
+        android:text="@string/texto_frase_dia"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/texto_nova_frase_id"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#faf6f6"
+        android:textSize="@dimen/texto_nova_frase"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:paddingTop="40dp" />
+</android.support.constraint.ConstraintLayout>

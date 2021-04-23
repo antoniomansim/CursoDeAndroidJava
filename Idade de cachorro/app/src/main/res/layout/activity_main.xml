@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d8ee9">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/cachorro"
+        app:srcCompat="@drawable/cachorro"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/caixatextoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="214dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:background="#699bf7"
+        android:padding="10dp"
+        android:text="Digite a idade do seu cachorro para descobrir a idade dele em anos humanos:"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/btnidadeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:text="@string/descobrir_idade"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/resultadoidadeid"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="73dp"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+</RelativeLayout>

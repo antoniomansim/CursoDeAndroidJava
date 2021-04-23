@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/detalhes_empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="44dp"
+        android:text="Sobre a Empresa" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="135dp"
+        android:padding="@dimen/padding_padrão"
+        tools:background="?android:attr/searchWidgetCorpusItemBackground">
+
+        <TextView
+            android:id="@+id/conteudo_Empresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_padrão"
+            android:text="Nas entrevistas de emprego é importante saber justificar “porque você quer trabalhar nesta empresa”. Por ser algo que muitos entrevistadores desejam saber dos candidatos, é importante que você tenha uma resposta inteligente e perspicaz  praticamente na ponta da língua. Mas, não pense você que esta pergunta é feita com o intuito de prejudicar os candidatos. Os selecionadores sempre a fazem nos processos seletivos na intenção de escolher o perfil certo e mais condizente com as necessidades organizacionais.  Vale ainda mencionar que esta pergunta tem como objetivo avaliar quais são os objetivos profissionais do candidato, saber qual é sua clareza em relação à empresa e, especialmente, o que o candidato tem a oferecer a organização caso seja escolhido no processo seletivo. Como tal, é um momento que pode ser decisivo para a contratação ou não do futuro colaborador.  Por toda a importância que esta pergunta possui é que se faz necessário ter o devido preparo para responder esta questão. Afinal, o intuito é transmitir aos selecionadores de que você é o que a empresa espera, não é mesmo? A grande questão que assola os candidatos – e que poderá te deixar com um certo desânimo – é que não existe uma resposta padrão para esta pergunta. Cada contratante busca em cada processo seletivo, candidatos com  características e habilidades diferentes e isso faz com que as respostas buscadas por cada empresa sejam diferentes também.  Então, como agir diante desta pergunta? O ideal é que em sua entrevista de emprego você seja o mais autêntico e verdadeiro possível. Não só diante desta pergunta mas ao longo de todo o processo seletivo, é importante não inventar personagens ou mentir sobre si mesmo. Se o intuito é que a empresa te conheça melhor, nada melhor que apresentar uma resposta condizente com o seu eu profissional, certo?Nas entrevistas de emprego é importante saber justificar “porque você quer trabalhar nesta empresa”. Por ser algo que muitos entrevistadores desejam saber dos candidatos, é importante que você tenha uma resposta inteligente e perspicaz  praticamente na ponta da língua. Mas, não pense você que esta pergunta é feita com o intuito de prejudicar os candidatos. Os selecionadores sempre a fazem nos processos seletivos na intenção de escolher o perfil certo e mais condizente com as necessidades organizacionais.  Vale ainda mencionar que esta pergunta tem como objetivo avaliar quais são os objetivos profissionais do candidato, saber qual é sua clareza em relação à empresa e, especialmente, o que o candidato tem a oferecer a organização caso seja escolhido no processo seletivo. Como tal, é um momento que pode ser decisivo para a contratação ou não do futuro colaborador.  Por toda a importância que esta pergunta possui é que se faz necessário ter o devido preparo para responder esta questão. Afinal, o intuito é transmitir aos selecionadores de que você é o que a empresa espera, não é mesmo? A grande questão que assola os candidatos – e que poderá te deixar com um certo desânimo – é que não existe uma resposta padrão para esta pergunta. Cada contratante busca em cada processo seletivo, candidatos com  características e habilidades diferentes e isso faz com que as respostas buscadas por cada empresa sejam diferentes também.  Então, como agir diante desta pergunta? O ideal é que em sua entrevista de emprego você seja o mais autêntico e verdadeiro possível. Não só diante desta pergunta mas ao longo de todo o processo seletivo, é importante não inventar personagens ou mentir sobre si mesmo. Se o intuito é que a empresa te conheça melhor, nada melhor que apresentar uma resposta condizente com o seu eu profissional, certo?" />
+    </ScrollView>
+
+</RelativeLayout>
